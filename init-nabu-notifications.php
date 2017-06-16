@@ -1,4 +1,5 @@
 <?php
+use providers\nabu\notifications\CNabuNotificationsProviderManager;
 
 /*  Copyright 2009-2011 Rafael Gutierrez Martinez
  *  Copyright 2012-2013 Welma WEB MKT LABS, S.L.
