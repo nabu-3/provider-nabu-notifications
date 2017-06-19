@@ -26,8 +26,8 @@ use providers\nabu\notifications\CNabuNotificationsProviderManager;
  */
 
 define ('NABU_NOTIFICATIONS_VENDOR_KEY', 'nabu');
-define ('NABU_NOTIFICATIONS_MODULE_KEY', 'mail');
-define ('NABU_NOTIFICATIONS_MANAGER_KEY', 'CNabuMailProviderManager');
+define ('NABU_NOTIFICATIONS_MODULE_KEY', 'notifications');
+define ('NABU_NOTIFICATIONS_MANAGER_KEY', 'CNabuNotificationsProviderManager');
 define ('NABU_NOTIFICATIONS_PROVIDER_PATH', dirname(__FILE__));
 
 $nb_engine->registerProviderManager(new CNabuNotificationsProviderManager());
